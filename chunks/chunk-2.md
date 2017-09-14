@@ -1,6 +1,6 @@
 # Head2
 
-Vestibulum ut luctus arcu. Etiam fermentum risus non placerat vestibulum. Fusce
+ut luctus arcu. Etiam fermentum risus non placerat vestibulum. Fusce
 id convallis elit, sed lacinia leo. Suspendisse potenti. Morbi eros mi, accumsan
 at enim quis, tincidunt suscipit velit. Curabitur maximus nisi ac purus congue,
 vitae dictum justo fringilla. **Nulla hendrerit** vestibulum lorem ac dignissim.
