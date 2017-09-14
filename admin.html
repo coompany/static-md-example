@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>Static site example (admin)</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="libs/simplemde.min.css" media="screen" />
     <script type="text/javascript" src="libs/jquery.min.js"></script>
     <script type="text/javascript" src="libs/showdown.min.js"></script>
+    <script type="text/javascript" src="libs/simplemde.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/admin.js"></script>
 </head>
@@ -13,7 +16,7 @@
         <select id="chunk-selector"></select>
     </div>
     <div>
-        <textarea id="editor" rows="30" cols="60"></textarea>
+        <textarea id="editor"></textarea>
     </div>
     <div>
         <button id="save-btn">Save</button>

@@ -5,11 +5,19 @@ jQuery(document).ready(($) => {
     return $('<option value="' + chunk + '">' + chunk + '</option>')
   });
 
+  const simplemde = new SimpleMDE({
+    element: document.getElementById('editor'),
+    spellChecker: false,
+    renderingConfig: {
+      singleLineBreaks: true
+    }
+  });
+
   function onChunkLoaded(chunk) {
     loadedChunk = chunk;
     loadedChunk.decodedContent = atob(loadedChunk.content);
     $('#title').text('Editing ' + selectedChunk);
-    $('#editor').val(loadedChunk.decodedContent);
+    simplemde.value(loadedChunk.decodedContent);
   }
 
   $('#chunk-selector').html(chunkOptions);
@@ -22,7 +30,7 @@ jQuery(document).ready(($) => {
   $('#save-btn').click(() => {
     const payload = {
       message: 'updated content',
-      content: btoa($('#editor').val()),
+      content: btoa(simplemde.value()),
       sha: loadedChunk.sha
     };
 

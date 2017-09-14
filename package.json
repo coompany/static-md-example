@@ -17,6 +17,7 @@
   "homepage": "https://github.com/coompany/static-md-example#readme",
   "dependencies": {
     "jquery": "^3.2.1",
-    "showdown": "^1.7.4"
+    "showdown": "^1.7.4",
+    "simplemde": "^1.11.2"
   }
 }
