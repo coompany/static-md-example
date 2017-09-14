@@ -1,0 +1,22 @@
+{
+  "name": "static-md-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./setup-deps.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coompany/static-md-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coompany/static-md-example/issues"
+  },
+  "homepage": "https://github.com/coompany/static-md-example#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "showdown": "^1.7.4"
+  }
+}
