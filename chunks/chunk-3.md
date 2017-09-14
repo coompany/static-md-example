@@ -1,6 +1,6 @@
 # Head3
 
-Donec tristique erat eu nunc consectetur, in volutpat urna pharetra. Nunc vitae
+DONEC tristique erat eu nunc consectetur, in volutpat urna pharetra. Nunc vitae
 molestie est. Integer ac consequat nulla. Class aptent taciti sociosqu ad litora
 torquent per conubia nostra, per inceptos himenaeos. Vestibulum posuere ac felis
 pulvinar faucibus. Aenean ut cursus enim. Praesent vel finibus metus, eget
